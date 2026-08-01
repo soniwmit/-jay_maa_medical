@@ -1,0 +1,6 @@
+{
+  "name": "जय माँ मेडिको अंग्रेजी दवाखाना",
+  "description": "Your Trusted Medical Store for Genuine Medicines, Healthcare Products & Medical Essentials in Paliganj, Bihar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
