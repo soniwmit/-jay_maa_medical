@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
   const { openOrderModal } = useOrderModal();
 
   useEffect(() => {
-    const TRACKING_ENDPOINT = 'https://tools.cprajapati.com/tracker/track.php';
+    const TRACKING_ENDPOINT = 'https://crm.webmakerit.com/tracker/track.php';
     const urlParams = new URLSearchParams(window.location.search);
     
     let cid = urlParams.get('cid') || localStorage.getItem('wmit_active_cid');
@@ -280,7 +280,7 @@ export const Footer: React.FC = () => {
           {/* Mandatory WMIT link */}
           <div className="text-slate-400 flex items-center gap-1">
             <span>Developed by</span>
-            <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
+            <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer"> WMIT</a>
           </div>
         </div>
       </div>
